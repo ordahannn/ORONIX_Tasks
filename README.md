@@ -16,8 +16,3 @@ The system is lightweight, scalable, and designed for seamless use across device
 ## Notes
 
 This project was developed in an academic setting and is intended for demonstration purposes only.
-
-## Authors
-
-- Or
-- Roni
