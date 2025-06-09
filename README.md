@@ -15,11 +15,13 @@ The system is lightweight, scalable, and designed for seamless use across device
 
 ## Project Structure
 
+'''
 oronix-tasks/
-├── frontend/ # Static site files
-├── backend/ # Lambda functions
-├── deployment/ # Templates, guides, and cost estimation
-└── README.md
+├── frontend/ # Static site files (HTML, CSS, JS)
+├── backend/ # AWS Lambda functions
+├── deployment/ # Setup guides, templates, and cost estimation
+└── README.md # Project overview and instructions
+'''
 
 ## How to Deploy
 
