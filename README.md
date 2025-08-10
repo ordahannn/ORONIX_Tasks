@@ -13,6 +13,8 @@ The system is lightweight, scalable, and designed for seamless use across device
 - **Database**: Amazon DynamoDB
 - **Hosting**: Amazon S3 (static website hosting)
 
-## Notes
+## About the Project
 
-This project was developed in an academic setting and is intended for demonstration purposes only.
+This application was developed as part of the Computer Science Bachelor's degree at Ruppin Academic Center.
+
+**Developed by:** Or Dahan & Roni Ronen
