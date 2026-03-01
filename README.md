@@ -1,18 +1,68 @@
 # ORONIX Tasks
 
-Oronix Tasks is a cloud-based task management application built on a fully serverless architecture using AWS.
-It provides users with a secure platform to create, update, and manage personal tasks, while administrators benefit from role-based access control.
+Oronix Tasks is a cloud-based task management application built on a fully serverless architecture using AWS architecture.
+It allows users to securely create, update, and manage personal tasks from any device, with a separate admin panel and role-based access control.
 The system is lightweight, scalable, and designed for seamless use across devices via a responsive web interface hosted on Amazon S3.
 
-## Technologies Used
+---
 
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: AWS Lambda
-- **Authentication**: Amazon Cognito
-- **API Management**: Amazon API Gateway
-- **Database**: Amazon DynamoDB
-- **Hosting**: Amazon S3 (static website hosting)
+##  Features
+
+- **Secure Authentication** — User sign-up, login, and session management via Amazon Cognito
+- **Task Management** — Create, read, update, and delete personal tasks
+- **Admin Panel** — Separate admin interface with elevated permissions
+- **Accessible from Anywhere** — Fully cloud-hosted, no local setup needed
+- **Responsive Design** — Works seamlessly across desktop and mobile browsers
+- **Serverless Architecture** — Auto-scales with demand, zero server maintenance
+
+---
+
+## Architecture
+
+```
+Browser (S3 Static Site)
+        │
+        ▼
+Amazon API Gateway
+        │
+        ▼
+  AWS Lambda Functions
+        │
+        ▼
+  Amazon DynamoDB
+```
+
+Authentication is handled by **Amazon Cognito**, which issues JWT tokens validated by API Gateway on every request.
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Frontend | HTML, CSS, JavaScript |
+| Hosting | Amazon S3 (static website) |
+| Authentication | Amazon Cognito |
+| API | Amazon API Gateway |
+| Business Logic | AWS Lambda |
+| Database | Amazon DynamoDB |
+
+---
+
+## 📂 Project Structure
+
+```
+ORONIX_Tasks/
+├── css/                  # Stylesheets
+├── js/                   # JavaScript logic
+├── logo and favicon/     # Branding assets
+├── index.html            # Login / landing page
+├── homePage.html         # User task dashboard
+└── admin.html            # Admin panel
+```
+
+---
 
 ## About the Project
 
-This application was developed as part of the Computer Science Bachelor's degree at Ruppin Academic Center.
+This project was developed as part of the Computer Science Bachelor's degree at **Ruppin Academic Center**, demonstrating practical use of cloud-native services and serverless architecture patterns.
