@@ -28,7 +28,7 @@ The system is lightweight, scalable, and designed for seamless use across device
 
 - **Admin Screen**
 
-<img width="1602" height="758" alt="image" src="https://github.com/user-attachments/assets/231782b1-7100-4c9d-a568-38991ea2158e" />
+  <img width="1602" height="758" alt="image" src="https://github.com/user-attachments/assets/231782b1-7100-4c9d-a568-38991ea2158e" />
 
 
 
