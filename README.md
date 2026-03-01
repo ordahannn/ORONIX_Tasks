@@ -71,12 +71,13 @@ Authentication is handled by **Amazon Cognito**, which issues JWT tokens validat
 
 ```
 ORONIX_Tasks/
+├── assets                # Branding assets
 ├── css/                  # Stylesheets
 ├── js/                   # JavaScript logic
-├── logo and favicon/     # Branding assets
-├── index.html            # Login / landing page
+├── admin.html            # Admin panel
 ├── homePage.html         # User task dashboard
-└── admin.html            # Admin panel
+└── index.html            # Login / landing page
+
 ```
 
 ---
