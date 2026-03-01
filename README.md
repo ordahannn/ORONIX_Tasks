@@ -16,5 +16,3 @@ The system is lightweight, scalable, and designed for seamless use across device
 ## About the Project
 
 This application was developed as part of the Computer Science Bachelor's degree at Ruppin Academic Center.
-
-**Developed by:** Or Dahan & Roni Ronen
