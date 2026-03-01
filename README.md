@@ -17,6 +17,24 @@ The system is lightweight, scalable, and designed for seamless use across device
 
 ---
 
+## Main Screens
+- **Login Screen**
+
+   <img width="1602" height="758" alt="image" src="https://github.com/user-attachments/assets/dea25b99-79bc-4570-ab6c-d93a2d8fce13" />
+
+- **Home Screen**
+
+  <img width="1602" height="758" alt="image" src="https://github.com/user-attachments/assets/28143000-e6a9-4ce9-bb10-8d0168d2128d" />
+
+- **Admin Screen**
+
+<img width="1602" height="758" alt="image" src="https://github.com/user-attachments/assets/231782b1-7100-4c9d-a568-38991ea2158e" />
+
+
+
+  
+---
+
 ## Architecture
 
 ```
